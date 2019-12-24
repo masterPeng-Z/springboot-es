@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * @author liuwg-a
- * @date 2018/9/17 8:55
+ * @author es
+ * @date 2019/9/17 8:55
  * @description 创建一个Repository的相关接口（可以加注解@RepositoryDefinition），这个接口必须继承Repository接口，
  * 这里的ElasticsearchRepository的上级上级。。。接口就是继承自Repository
  * ElasticsearchRepository接口泛型通常写成<存储的实体类型, 主键类型>，这样就将这个仓库定制化为某个文档的专用，比如这里

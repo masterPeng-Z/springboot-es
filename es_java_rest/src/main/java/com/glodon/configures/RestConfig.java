@@ -27,8 +27,8 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Iterator;
 
 /**
- * @author liuwg-a
- * @date 2018/9/16 18:13
+ * @author es
+ * @date 2019/9/16 18:13
  * @description
  */
 @Configuration
@@ -36,7 +36,7 @@ public class RestConfig {
     @Bean
     public RestClient getClient() throws KeyStoreException, NoSuchAlgorithmException, KeyManagementException {
         // 如果有多个从节点可以持续在内部new多个HttpHost，参数1是ip,参数2是HTTP端口，参数3是通信协议
-        RestClientBuilder clientBuilder = RestClient.builder(new HttpHost("192.168.37.66", 9200, "http"));
+        RestClientBuilder clientBuilder = RestClient.builder(new HttpHost("192.168.32.42", 9200, "http"));
 
         // 添加其他配置，都是可选，比如设置请求头，每个请求都会带上这个请求头
 //        Header[] defaultHeaders = {new BasicHeader("header", "value")};

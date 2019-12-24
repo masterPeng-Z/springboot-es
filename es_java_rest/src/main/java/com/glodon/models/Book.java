@@ -1,8 +1,8 @@
 package com.glodon.models;
 
 /**
- * @author liuwg-a
- * @date 2018/9/16 19:19
+ * @author es
+ * @date 2019/9/16 19:19
  * @description
  */
 public class Book {

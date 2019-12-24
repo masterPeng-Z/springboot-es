@@ -4,8 +4,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
 /**
- * @author liuwg-a
- * @date 2018/9/17 8:48
+ * @author es
+ * @date 2019/9/17 8:48
  * @description , dataES自身提供了@Document注解文档，当然它也接受第三方的注解，比如JPA中的@Entity，
  * 但是别混用，比如在Book类上同时用@Entity和@Document注解，一个即可被识别
  * replicas = 0, refreshInterval = "-1"
